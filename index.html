@@ -5,49 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmark App</title>
-    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="favicon/favicon.ico">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Open Modal -->
-    <h1 id="show-modal">Add Bookmark</h1>
+    <h1>Hi Stranger, use this cool app to save your fave sites!</h1>
+    <h2 id="show-modal">Add Bookmark!</h2>
     <!-- Bookmarks -->
-    <div class="container" id="booksmarks-container">
-        <div class="item">
-            <i class="fa-solid fa-xmark" id="delete-bookmark" title="Delete Bookmark"></i>
-            <div class="name">
-                <img src="https://www.google.com/s2/u/0/favicons?domain=deedeeportfolio.com" alt="Favicon">
-                <a href="https://www.deedeeportfolio.com/" target="_blank">DeeDee Portfolio</a>
-            </div>
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-xmark" id="delete-bookmark" title="Delete Bookmark"></i>
-            <div class="name">
-                <img src="https://www.google.com/s2/u/0/favicons?domain=deedeeportfolio.com" alt="Favicon">
-                <a href="https://www.deedeeportfolio.com/" target="_blank">DeeDee Portfolio</a>
-            </div>
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-xmark" id="delete-bookmark" title="Delete Bookmark"></i>
-            <div class="name">
-                <img src="https://www.google.com/s2/u/0/favicons?domain=deedeeportfolio.com" alt="Favicon">
-                <a href="https://www.deedeeportfolio.com/" target="_blank">DeeDee Portfolio</a>
-            </div>
-        </div>
-    </div>
+    <div class="container" id="bookmarks-container"></div>
     <!-- Modal -->
     <div class="modal-container" id="modal">
         <div class="modal">
             <i class="fa-solid fa-xmark close-icon" id="close-modal"></i>
             <div class="modal-header">
-                <h3>Add Bookmark</h3>
+                <h3>Add Bookmark!</h3>
             </div>
             <div class="modal-content">
                 <form  id="bookmark-form">
                     <!-- Website Name -->
                     <div class="form-group">
-                        <label for="website-name" class="form-label">Website Name</label>
+                        <label for="website-name" class="form-label">Website Name   
+                        </label>
                         <input type="text" class="form-input" id="website-name">
                     </div>
                     <!-- Website URL -->
