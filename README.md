@@ -29,6 +29,10 @@
 
 Add your favorite sites in a place where you can easily return to and visite the site at the same time.
 
+## Live Site
+(https://danaalami-cloud.github.io/Book-Keeper/)
+
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -36,20 +40,6 @@ Add your favorite sites in a place where you can easily return to and visite the
 * [Screenshots](#screenshots)   
 * [Credits](#credits)
 * [License](#license)
-
-## Installation
-
-1. Clone repository. 
-
-
-## Usage
-
-### Screeshots
-
-1. Homepage 
-
-![Site](https://danaalami-cloud.github.io/Book-Keeper/)
-
 
 
 ## Credits
